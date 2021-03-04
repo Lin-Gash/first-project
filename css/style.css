@@ -1,7 +1,12 @@
 :root {
-  --color-primary: #2584ff;
-  --color-secondaty: #00d9ff;
-  --color-accent: #ff3400;
-  --color-heading: #1b0760;
-  --color-body: #918ca4;
+	--color-primary: #2584ff;
+	--color-secondaty: #00d9ff;
+	--color-accent: #ff3400;
+	--color-heading: #1b0760;
+	--color-body: #918ca4;
+}
+
+.image {
+	max-width: 500px;
+	width: 100%;
 }
