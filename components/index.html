@@ -5,10 +5,69 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="../css/normalize.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="../css/style.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<img class="image" src="../image/testimonial.jpg" alt="human" />
+		<div class="collapsible">
+			<header class="header-container">
+				<div class="header-inner-container collapsible">
+					<img src="../icons/logo.svg" alt="logo icon" class="image"></img>
+					<svg class="icon menu">
+									 <use xlink:href="../icons/sprite.svg#menu"></use>
+							</svg>
+					<ul class="list">
+						<li class='list-item'><a href="">Hosting</a></li>
+						<li class='list-item'><a href="">VPS</a></li>
+						<li class='list-item'><a href="">Domain</a></li>
+						<li class='list-item last'><a href="">Pricing</a></li>
+					</ul>
+				</div>
+			</header>
+		</div>
+		<section class="containerone">
+			<div class="containerone-inner">
+				<header class='containerone-header'>
+					<h6 class='h6-color'>Cloud Hosting for Pros</h6>
+					<h2 class='h2-color'>Deploy your websites in less than 60 seconds.</h2>
+					<a class="btn btn-accent btn-font" href="#">Get started</a>
+				</header>
+				<img class='containerone-image'src="../image/banner.png" alt="">
+			</div>
+		</section>
+		<section class="containertwo">
+			<header class="containertwo-header">
+				<h4 class="h4-color">Starting at $10 per month</h4>
+				<h2 class="h2-color">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, exercitationem?
+
+				</h2>
+				
+					<div class="input-group">
+						<input placeholder="Enter domain name here...
+						" type="text" class="input">
+					</input>
+					<button class="btn btn-accent">
+									   Search
+					</button>
+				</div>
+				<ul class="containertwo-list">
+					<div class="">
+						<li class="containertwo-list-item">.com $9</li>
+					</div>
+					<li class="containertwo-list-item">.sg $10</li>
+					<li class="containertwo-list-item">.space $11</li>
+					<li class="containertwo-list-item">.info $14</li>
+					<li class="containertwo-list-item">.net $10</li>
+					<li class="containertwo-list-item">.xyz $10</li>
+				</ul>
+			</header>
+		</section>
+		<script src="../js/main.js"></script>
 	</body>
 </html>
