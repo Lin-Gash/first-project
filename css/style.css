@@ -17,7 +17,7 @@ body {
 	font-size: 2rem;
 	line-height: 1.5;
 	font-family: Inter, Arial, Helvetica, sans-serif;
-	height: 2000vh;
+	height: 1500vh;
 }
 
 h1 {
@@ -479,11 +479,124 @@ a {
 	margin-right: 2rem;
 }
 @media screen and (min-width: 768px) {
-	.container5-article {
-		grid-template-columns: repeat(2, 1fr);
+	.container5 {
+		padding-left: 0;
 	}
-	.container5-article-image {
+	.container5-article {
+		grid-template-columns: 50% 50%;
+	}
+	.container5-article img {
 		max-width: 700px;
 		width: auto;
+		justify-self: end;
+	}
+}
+/* section6 */
+.container6 {
+	padding: 2rem;
+}
+.container6-header {
+	text-align: center;
+}
+.container6-header h3 {
+	font-size: 4rem;
+	color: var(--color-heading);
+	margin-bottom: 0;
+}
+.container6-header h2 {
+	color: var(--color-body);
+	font-weight: 300;
+}
+.container6-article {
+	padding: 3rem 5rem;
+	margin-top: 5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	box-shadow: 0 0 20px 10px #f3f3f3;
+	border-radius: 10px;
+}
+.container6-article img {
+	width: 100%;
+}
+.container6-article .icon {
+	fill: #fff;
+	width: 30px;
+	height: 30px;
+}
+.container6-article .icon-container {
+	background-color: var(--color-accent);
+	padding: 1.5rem;
+	position: absolute;
+	top: 10px;
+	right: -20px;
+}
+.testimonial-image {
+	display: block;
+	position: relative;
+}
+.container6-article h2 {
+	font-size: 2.2rem;
+	color: var(--color-body);
+	font-weight: 300;
+	font-style: italic;
+}
+.container6-article h2::before {
+	content: '"';
+}
+.container6-article h2::after {
+	content: '"';
+}
+.line-component {
+	display: flex;
+}
+.line-component h2 {
+	margin: 0;
+	color: var(--color-heading);
+	font-weight: 500;
+}
+.line-component h1 {
+	margin: 0;
+	color: var(--color-body);
+	font-weight: 300;
+}
+.line-component .icon {
+	margin-top: 1rem;
+	margin-right: 1rem;
+}
+@media screen and (min-width: 768px) {
+	.container6-article {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 0 5rem;
+	}
+}
+/* section7 */
+.container7 {
+	padding: 0 5rem 5rem;
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+	justify-items: center;
+	background-color: var(--color-hello);
+}
+.container7 h3 {
+	margin-bottom: 2rem;
+	color: #fff;
+}
+.container7 h2 {
+	color: #fff;
+	font-weight: 300;
+	margin-top: 0;
+	font-size: 1.8rem;
+}
+.btn-primary {
+	background-color: var(--color-secondaty);
+	margin: 2rem;
+	color: #fff;
+}
+@media screen and (min-width: 768px) {
+	.container7 {
+		grid-template-columns: 1fr auto;
+		align-items: center;
+		text-align: start;
 	}
 }
