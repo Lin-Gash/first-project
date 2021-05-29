@@ -8,14 +8,15 @@
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" />
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet" />
+	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<title>Document</title>
 </head>
 
 <body>
 	<div class="collapsible">
-		<header class="header-container">
-			<div class="header-inner-container collapsible">
+		<header class="header-container" >
+			<div class="header-inner-container collapsible" >
 				<img src="icons/logo.svg" alt="logo icon" class="image"></img>
 				<svg class="icon menu">
 					<use xlink:href="icons/sprite.svg#menu"></use>
@@ -32,22 +33,22 @@
 	<section class="containerone">
 		<div class="containerone-inner">
 			<header class='containerone-header'>
-				<h6 class='h6-color'>Cloud Hosting for Pros</h6>
+				<h6 class='h6-color' data-aos="zoom-in-up">Cloud Hosting for Pros</h6>
 				<h2 class='h2-color'>Deploy your websites in less than 60 seconds.</h2>
 				<a class="btn btn-accent btn-font" href="#">Get started</a>
 			</header>
-			<img class='containerone-image' src="image/banner.png" alt="">
+			<img class='containerone-image' data-aos="zoom-in-up" src="image/banner.png" alt="">
 		</div>
 	</section>
-	<section class="containertwo">
-		<header class="containertwo-header">
+	<section class="containertwo" data-aos="fade-up">
+		<header class="containertwo-header" >
 			<h4 class="h4-color">Starting at $10 per month</h4>
 			<h2 class="h2-color">
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, exercitationem?
 
 			</h2>
 
-			<div class="input-group">
+			<div class="input-group" >
 				<input placeholder="Enter domain name here...
 						" type="text" class="input">
 				</input>
@@ -67,7 +68,7 @@
 			</ul>
 		</header>
 	</section>
-	<section class="containerthree">
+	<section class="containerthree" data-aos="fade-up">
 		<div class="card-container first">
 			<header class=" card-container-header secondary">
 				<h2 class="plan-zero">Entry</h2>
@@ -129,7 +130,7 @@
 			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, voluptatem.</h1>
 		</header>
 		<article class="container4-article">
-			<div class="instruction">
+			<div class="instruction" data-aos="zoom-in">
 				<span class="icon-container">
 					<svg class="icon easy">
 						<use xlink:href="icons/sprite.svg#easy"></use>
@@ -144,10 +145,10 @@
 				</h1>
 				<a href="#">LEARN MORE</a>
 			</div>
-			<img class="container4-image" src="image/easy.jpg" alt="#">
+			<img data-aos="zoom-in" class="container4-image" src="image/easy.jpg" alt="#">
 		</article>
 		<article class="container4-article">
-			<div class="instruction">
+			<div class="instruction" data-aos="fade-up" >
 				<span class="icon-container">
 					<svg class="icon easy">
 						<use xlink:href="icons/sprite.svg#computer"></use>
@@ -162,10 +163,10 @@
 				</h1>
 				<a href="#">LEARN MORE</a>
 			</div>
-			<img class="container4-image reverse" src="image/fast.jpg" alt="#">
+			<img  class="container4-image reverse" src="image/fast.jpg" alt="#">
 		</article>
 		<article class="container4-article">
-			<div class="instruction">
+			<div class="instruction" data-aos="fade-up">
 				<span class="icon-container">
 					<svg class="icon easy">
 						<use xlink:href="icons/sprite.svg#wordpress"></use>
@@ -182,8 +183,8 @@
 			</div>
 			<img class="container4-image" src="image/wordpress.jpg" alt="#">
 		</article>
-		<article class="container4-article">
-			<div class="instruction">
+		<article class="container4-article" >
+			<div class="instruction" data-aos="zoom-in-up">
 				<span class="icon-container">
 					<svg class="icon easy">
 						<use xlink:href="icons/sprite.svg#clock"></use>
@@ -198,7 +199,7 @@
 				</h1>
 				<a href="#">LEARN MORE</a>
 			</div>
-			<img class="container4-image reverse" src="image/support.jpg" alt="#">
+			<img  data-aos="zoom-in-up" class="container4-image reverse" src="image/support.jpg" alt="#">
 		</article>
 	</section>
 	<section class="container5">
@@ -207,9 +208,10 @@
 		</header>
 		<article class="container5-article">
 
-			<img class='container5-article-image' src="image/ipad.png" alt="ipad photo">
+			<img data-aos="fade-right"
+			class='container5-article-image' src="image/ipad.png" alt="ipad photo">
 
-			<div class="container5-innerarticle">
+			<div class="container5-innerarticle" data-aos="fade-up">
 				<div class="container5-innerarticle1">
 					<div class="container5-icon">
 						<svg class="icon snap">
@@ -226,7 +228,7 @@
 						</h2>
 					</div>
 				</div>
-				<div class="container5-innerarticle1">
+				<div class="container5-innerarticle1" >
 					<div class="container5-icon">
 						<svg class="icon snap">
 							<use xlink:href="icons/sprite.svg#growth"></use>
@@ -261,7 +263,7 @@
 			</div>
 		</article>
 	</section>
-	<section class="container6">
+	<section class="container6" data-aos="zoom-in">
 		<header class="container6-header">
 			<h3>What our Customers are Saying</h3>
 			<h2>
@@ -367,6 +369,10 @@
 		</section>
 	</section>
 	<script src="js/main.js"></script>
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
